@@ -1,38 +1,93 @@
-* {
-    padding: 0;
-    margin: 0;
+@import url('./variables.css');
+
+/* RESET Y BASE */
+*{
     box-sizing: border-box;
-}
-
-.fondo {
-    position: relative;
-    min-height: 100vh;
-    background: #f4f7fb;
-    padding: 30px 60px 60px 60px;
-
-}
-
-.context-bar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 5em;
-    background: linear-gradient(180deg, #1E3932 0%, #2D5248 100%);
-    z-index: 1;
-}
-
-.panel {
-    position: relative;
-    z-index: 2;
-    background: white;
-    max-width: 1100px;
-    margin: auto;
-    border-radius: 20px;
-    box-shadow: 0 30px 560px rgba(0, 0, 0, 0.2);
+    margin: 0;
     padding: 0;
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
+/* FUENTE BASE */
+body{
+    font-family: "Inter", sans-serif;
+    background: var(--link-bg-color);
+    min-height: 100vh;
+}
+
+.fondo{
+    padding: 40px 20px;
+}
+
+/* PANEL CENTRAL */
+.panel{
+    background: var(--panel-bg);
+    border-radius: 20px;
+    box-shadow: 0 20px 60px var(--panel-shadow);
+    overflow: hidden;
+}
+
+/* BREADCRUMB */
+.breadcrumb{
+    padding: 15px 30px;
+    font-size: 14px;
+    color: var(--breadcrumb-color);
+}
+
+.breadcrumb i{
+    margin-right: 5px;
+}
+
+.breadcrumb a{
+    color: var(--breadcrumb-color);
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+/* TITULO PRINCIPAL */
+.panel h1{
+    font-family: "Inter24pt", sans-serif;
+    font-weight: 800;
+    padding: 30px;
+    font-size: 42px;
+    color: var(--main-title-color);
+}
+
+/* TEXTO */
+.panel p{
+    padding: 0 30px;
+    line-height: 1.8;
+    color: var(--text-color);
+    font-weight: 400;
+}
+
+/* ÍNDICE */
+.panel nav:not(.nav-bar){
+    margin: 40px 30px;
+    background: var(--index-bg);
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.panel nav:not(.nav-bar) h2{
+    font-family: "Inter18pt", sans-serif;
+    font-weight: 700;
+    color: var(--main-title-color);
+    margin-bottom: 15px;
+}
+
+.panel nav:not(.nav-bar) a{
+    display: block;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: var(--main-title-color);
+    background: var(--link-bg-color);
+    font-weight: 500;
+    transition: .3s;
+}
+
+.panel nav a:hover{
+    background: var(--index-link-hover-bg);
+    transform: translateX(6px);
 }

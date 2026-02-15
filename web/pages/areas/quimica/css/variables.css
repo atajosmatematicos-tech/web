@@ -1,0 +1,20 @@
+:root {
+    /* degradados */
+    --primary-gradient: linear-gradient(135deg, #2d972297, #08a054c8);
+    --accent-gradient: linear-gradient(90deg, #ff9800, #ff6a00);
+    
+    /* colores de la barra de navegación */
+    --button-text-color: white;
+    --link-bg-color: white;
+    --link-text-color: black;
+    --shadow-color: rgba(0, 0, 0, 0.25);
+
+    /* colores del panel principal */
+    --panel-bg: #f7faf9;
+    --panel-shadow: rgba(0, 0, 0, 0.601);
+    --breadcrumb-color: #3b7a63;
+    --main-title-color: #1f7a59;
+    --text-color: #444;
+    --index-bg: #ecf7f2;
+    --index-link-hover-bg: #d6efe4;
+}
