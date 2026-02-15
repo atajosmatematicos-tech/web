@@ -1,0 +1,14 @@
+.presentation-title {
+    display: inline-block;
+    font-size: small;
+    padding: 0.5em;
+    font-family: "Inter";
+    text-align: left;
+    background: var(--accent-color);
+    border-radius: 1em;
+}
+
+.presentation {
+    font-size: small;
+    padding: 0.5em;
+}

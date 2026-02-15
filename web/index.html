@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>REPOSITORIO GAUS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../web/STYLES/main.css">
+    <link rel="stylesheet" href="../web/STYLES/header.css">
+    <link rel="stylesheet" href="../web/STYLES/presentation.css">
+    <link rel="stylesheet" href="../web/STYLES/layout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../web/STYLES/footer.css">
+</head>
+
+<body>
+
+<div class="main-layout">
+
+    <div class="top-panel">
+
+        <!-- HEADER -->
+        <header class="main-header">
+
+            <div class="top-bar">
+                <div class="brand">
+                    <img src="../web/public/img/icon.png" class="icon" oncontextmenu="mostrarAlerta(); return false">
+                    <h1>Guía Científica</h1>
+                </div>
+
+                <div class="top-actions">
+                    <div class="search-box">
+                        <input type="text" autocomplete="off" placeholder=" " class="form_imput"/>
+                        <label>Buscar</label>
+                    </div>
+                    <button class="login-btn">Acceder</button>
+                </div>
+            </div>
+
+            <nav class="nav-bar">
+                <a href="index.html">Inicio</a>
+                <a href="#">Áreas</a>
+                <a href="#">Biblioteca</a>
+                <a href="#">Cursos</a>
+                <a href="index.html#contactos">Contacto</a>
+            </nav>
+
+            <div class="hero">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <h2>Guía Científica de Matemáticas</h2>
+                    <p>Pensar es resolver. Plataforma educativa diseñada para ciencias e ingeniería</p>
+                    <button class="hero-btn">Explorar</button>
+                </div>
+            </div>
+
+        </header>
+
+        <section class="presentation">
+            <div class="presentation-title">
+                <h2><strong>¿QUIÉNES SOMOS?</strong></h2>
+            </div>
+            <p>
+                <strong>La Guía Científica de Matemáticas</strong> es una plataforma educativa diseñada para estudiantes de ingeniería,
+                preuniversitarios y docentes, que reúne fichas teóricas, ejemplos y ejercicios organizados según el temario oficial.
+                Aquí encontrarás contenidos claros, progresivos y rigurosos para dominar las matemáticas y las ciencias.
+            </p>
+        </section>
+
+    </div>
+
+    <!-- SERVICIOS -->
+    <div class="bottom-panel">
+        <section class="servicios">
+            <h2 class="servicios-title">Conoce todos nuestros servicios</h2>
+
+            <!-- ÁREAS -->
+            <div class="servicio areas">
+
+                <div class="area header">
+                    <h3>Áreas de estudio</h3>
+                    <button class="btn areas" data-toggle="">Ver más</button>
+                </div>
+
+                <div class="grid hidden">
+
+                    <div class="card area">
+                        <h4>Álgebra</h4>
+                        <p>Polinomios, números reales y complejos...</p>
+                        <button class="btn card">Ver temas</button>
+                    </div>
+
+                    <div class="card area">
+                        <h4>Trigonometría</h4>
+                        <p>Sistemas de medidas angulares...</p>
+                        <button class="btn card">Ver temas</button>
+                    </div>
+
+                    <div class="card area">
+                        <h4>Aritmética</h4>
+                        <p>Teoría de conjuntos...</p>
+                        <button class="btn card">Ver temas</button>
+                    </div>
+
+                    <div class="card area">
+                        <h4>Geometría</h4>
+                        <p>Segmentos y conjuntos...</p>
+                        <button class="btn card">Ver temas</button>
+                    </div>
+
+                    <div class="card area">
+                        <h4>Química</h4>
+                        <p>Materia, energía y energía química...</p>
+                        <a href="pages/areas/quimica/index.html" class="btn card">Ver temas</a>
+                    </div>
+
+                    <div class="card area">
+                        <h4>Física</h4>
+                        <p>Mecánica, analisis dimensional...</p>
+                        <button class="btn card">Ver temas</button>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!-- BIBLIOTECA -->
+            <div class="servicio biblioteca">
+                
+                <div class="area virtual">
+                    <h3>Biblioteca virtual</h3>
+                    <button class="btn biblioteca" data-toggle="">Ver más</button>
+                </div>
+
+                <div class="grid hidden">
+
+                    <div class="card biblioteca">
+                        <h4>Fichas en PDF</h4>
+                        <button class="btn virtual">Ver</button>
+                    </div>
+
+                    <div class="card biblioteca">
+                        <h4>Formularios</h4>
+                        <button class="btn virtual">Ver</button>
+                    </div>
+
+                    <div class="card biblioteca">
+                        <h4>Ejercicios resueltos</h4>
+                        <button class="btn virtual">Ver</button>
+                    </div>
+
+                    <div class="card biblioteca">
+                        <h4>Tablas y resúmenes</h4>
+                        <button class="btn virtual">Ver</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- REFERENCIAS -->
+            <div class="servicio referencias">
+
+                <div class="area referencia">
+                    <h3>Referencias</h3>
+                    <button class="btn referencias" data-toggle="">Ver más</button>
+                </div>
+
+                <div class="grid hidden">
+                    <div class="card referencias">
+                        <h4>Temarios</h4>
+                        <button class="btn referencia">Ver</button>
+                    </div>
+
+                    <div class="card referencias">
+                        <h4>Libros académicos</h4>
+                        <button class="btn referencia">Ver</button>
+                    </div>
+
+                    <div class="card referencias">
+                        <h4>Material preuniversitario</h4>
+                        <button class="btn referencia">Ver</button>
+                    </div>
+
+                    <div class="card referencias">
+                        <h4>Fuentes académicas</h4>
+                        <button class="btn referencia">Ver</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="social">
+            <a href="#">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-twitter"></i>
+            </a>
+            
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+
+        <div class="footer-grid" id="contactos">
+
+            <a href="#">
+                Contacto
+            </a>
+                
+            <a href="#">
+                Soporte académico
+            </a>
+
+            <a href="#">
+                Información
+            </a>
+
+            <a href="#">
+                Ayuda
+            </a>
+        </div>
+
+
+        <div class="sub-footer">
+            <h3 class="footer-title">Guía Científica de Matemáticas</h3>
+            <p class="footer-text">
+                Plataforma educativa orientada al desarrollo del pensamiento lógico, matemático y científico para estudiantes
+                de ingeniería y ciencias.
+            </p>
+        </div>
+
+        <div class="copyright">
+            &#174; 2026 Guía Científica de Matemáticas — Todos los derechos reservados
+        </div>
+    </footer>
+
+</div>
+
+<script src="../web/JS/main.js"></script>
+</body>
+</html>
+

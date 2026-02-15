@@ -1,0 +1,105 @@
+/* ===============================
+   BLOQUES DE SERVICIOS 
+================================ */
+
+.servicios {
+    width: 100%;
+    padding: 60px 10%;
+}
+
+.servicio {
+    background: var(--color-bg-card);
+    border-radius: 16px;
+    padding: 35px;
+    box-shadow: 0 12px 25px rgba(0,0,0,.08);
+    margin-top: 40px;
+    display: grid;
+    gap: 25px;
+}
+
+/* Identidad visual por sección */
+.areas {
+    border-left: 6px solid #e85d3f;
+}
+
+.biblioteca {
+    border-left: 6px solid #3fa9f5;
+}
+
+.referencias {
+    border-left: 6px solid #2ecc71;
+}
+
+/* ===============================
+   CONTENIDO DE SERVICIOS
+================================ */
+
+.area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 40px;
+    grid-auto-flow: dense;
+}
+
+.hidden {
+    display: none;
+}
+
+.servicios-title {
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+
+/* ===============================
+   CARDS
+================================ */
+
+.card {
+    background: var(--color-bg-card);
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+    padding: 25px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 15px;
+}
+
+.card h4 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.card p {
+    color: var(--text-color);
+}
+
+/* ===============================
+   BOTONES
+================================ */
+
+.btn {
+    background: var(--accent-color);
+    color: var(--white-color);
+    border: none;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 10px 18px;
+    justify-self: start;
+    display: inline-block;
+    text-decoration: none;
+    font-size: small;
+}
+
+.btn:hover {
+    background: var(--button-hover-color);
+}

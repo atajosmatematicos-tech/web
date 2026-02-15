@@ -1,0 +1,83 @@
+.nav-bar{
+    width:100%;
+    height:70px;
+    padding: 0 40px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    background: #31593B;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    border-radius: 18px;
+    border: 1px solid rgba(255,255,255,0.15);
+}
+
+/* Logo */
+.nav-left{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:white;
+    font-size:22px;
+    font-weight:700;
+}
+
+.nav-left i{
+    font-size:28px;
+    color:#7cffc7;
+}
+
+/* Links */
+.nav-links{
+    display:flex;
+    align-items:center;
+    gap:30px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#e4f7ef;
+    font-weight:500;
+    position:relative;
+    transition:0.3s;
+}
+
+/* Línea animada */
+.nav-links a::after{
+    content:"";
+    position:absolute;
+    bottom:-6px;
+    left:0;
+    width:0%;
+    height:2px;
+    background:#7cffc7;
+    transition:0.3s;
+}
+
+.nav-links a:hover::after{
+    width:100%;
+}
+
+.nav-links a:hover{
+    color:#7cffc7;
+}
+
+/* Botón Acceder */
+.nav-links button{
+    padding:10px 22px;
+    background:linear-gradient(135deg, #ff8a00, #ffb347);
+    border:none;
+    border-radius:10px;
+    color:white;
+    font-weight:600;
+    cursor:pointer;
+    box-shadow:0 8px 20px rgba(255,140,0,0.4);
+    transition:0.3s;
+}
+
+.nav-links button:hover{
+    transform:translateY(-2px);
+    box-shadow:0 12px 25px rgba(255,140,0,0.6);
+}

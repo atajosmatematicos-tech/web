@@ -1,0 +1,30 @@
+
+:root {
+    /* Theme colors */
+    --primary-color: #0B3C5D;
+    --secondary-color: #00B894;
+    --accent-color: #ff6a00;
+    --background-gradient: linear-gradient(90deg, #fff, #969393);
+    --title-gradient: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    --nav-gradient: linear-gradient(90deg, #005f6a, #0aa1a7);
+    --hero-overlay-color: rgba(0,0,0,0.6);
+
+    /* Neutral colors */
+    --white-color: #fff;
+    --dark-background-color: #1f1f1f;
+    --text-color: #555;
+    --background-color: #fff;
+
+    /* Button colors */
+    --button-hover-color: #d44b2f;
+    --button-social-background: #00bcd4;
+
+    /* Border colors */
+    --border-input-color: #fff;
+    --border-input-hover-color: rgba(255, 255, 255, 0.5);
+    --border-input-focus-color: #00ffff;
+    --border-area-color: #e85d3f;
+    --border-biblioteca-color: #3fa9f5;
+    --border-referencias-color: #2ecc71;
+    --border-card-color: #e0e0e0;
+}
