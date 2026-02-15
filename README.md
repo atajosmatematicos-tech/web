@@ -84,4 +84,4 @@ Si deseas expandir el proyecto, sigue estas recomendaciones para mantener la con
 4.  **Usar Variables CSS:** Define los colores y estilos específicos del nuevo módulo en su propio archivo `variables.css`. Esto asegura que los cambios no afecten a otras secciones.
 
 ---
-*Esta documentación fue generada y actualizada por Gemini.*
+
